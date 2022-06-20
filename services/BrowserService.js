@@ -1,7 +1,6 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require("puppeteer");
 
 class BrowserService {
-
     static getBrowser() {
         return puppeteer.launch({});
     }
